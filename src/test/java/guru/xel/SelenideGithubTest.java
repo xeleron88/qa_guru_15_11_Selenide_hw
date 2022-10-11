@@ -13,7 +13,7 @@ public class SelenideGithubTest extends TestBase{
         steps.searchSelenideRepo();
         steps.openWikiPage();
         steps.shouldBeSoftAssertionsInPages();
-        steps.ClickToSoftAssertions();
+        steps.clickToSoftAssertions();
         steps.sholdBeJunitInPage();
 
     }

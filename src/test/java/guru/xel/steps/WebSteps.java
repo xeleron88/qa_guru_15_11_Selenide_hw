@@ -32,7 +32,7 @@ public class WebSteps {
     }
 
     @Step("Click to SoftAssertions")
-    public void ClickToSoftAssertions() {
+    public void clickToSoftAssertions() {
         $(linkText("SoftAssertions")).click();
     }
 
